@@ -8,16 +8,6 @@
 
 ini_set('display_errors', 1);
 
-// $mysqli = new mysqli("localhost","bernardino","mysql", "catalog");
-// $sku = $_POST['sku'];
-// $name = $_POST['name'];
-// $price = $_POST['price'];
-// $sql = "INSERT INTO products SET id=NULL, sku=$sku, name=$name, price=$price";
-// if ($mysqli->query($sql) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $mysqli . "<br>" . $mysqli->error;
-// }
 
 $mysqli = new mysqli("localhost","root","", "pw");
 
@@ -32,7 +22,6 @@ $stmt->bind_param('ssi', $nome, $email, $senha);
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
-//echo "$sku > $name  > $price";
 
 $stmt->execute();
 $stmt->close();
