@@ -7,7 +7,7 @@ if (isset($_POST['submit'])){
     $cadastro = $usuario->registra_usuario($nome_usuario, $senha_usuario, $email_usuario);
     if ($cadastro) {
         // Registration Success
-        echo "<div style='text-align:center'>Cadastro salvo com sucesso <a href='view_login.php'>Clique aqui</a> para fazer login</div>";
+        echo "<div style='text-align:center'>Cadastro salvo com sucesso <a href='login.php'>Clique aqui</a> para fazer login</div>";
     } else {
         // Registration Failed
         echo "<div style='text-align:center'>Registration failed. Email or Username already exits please try again.</div>";
@@ -54,7 +54,7 @@ if (isset($_POST['submit'])){
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td><a href="view_login.php">Já é cadastrado? Clique Aqui!</a></td>
+                <td><a href="login.php">Já é cadastrado? Clique Aqui!</a></td>
             </tr>
 
         </table>

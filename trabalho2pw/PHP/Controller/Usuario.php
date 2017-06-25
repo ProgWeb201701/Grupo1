@@ -7,8 +7,12 @@ class Usuario
 
     public function __construct()
     {
-        $this->db = new DB_con();
-        $this->db = $this->db->ret_obj();
+        $this->db = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+
+        if (mysqli_connect_errno()) {
+            echo "Erro: Não foi possível conectar ao banco de dados.";
+            exit;
+        }
     }
 
     /*** processo de registro de usuario ***/
@@ -56,12 +60,22 @@ class Usuario
 
         if ($count_row == 1) {
             $_SESSION['login'] = true;
-            $_SESSION['uid'] = $user_data['uid'];
+            $_SESSION['id_usuario'] = $user_data['id_usuario'];
             return true;
         } else {
             return false;
         }
 
+
+    }
+
+    public function get_name($id_usuario){
+        $query = "SELECT nome_usuario from usuario WHERE id_usuario = '$id_usuario'";
+
+        $result = $this->db->query($query) or die($this->db->error);
+
+        $user_data = $result->fetch_array(MYSQLI_ASSOC);
+        echo $user_data['nome_usuario'];
 
     }
 
