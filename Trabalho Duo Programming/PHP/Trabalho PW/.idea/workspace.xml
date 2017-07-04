@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edd72233-f5d7-44eb-ae39-93cd7f2e014b" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="indexPrincipal.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Duo Programming/view/indexPrincipal.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logo</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/DAO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/editaQuestao.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/editarinfo.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_real.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Teste.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/PageView.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Contato.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/forum.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Sobre.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/indexPrincipal.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/css/styles.css" />
+        <option value="$PROJECT_DIR$/Manual de Instalação/Script Usuario.sql" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/QuestoesVO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/QuestaoDAO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/QuestoesDAO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/RespostaQuestoesVO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_classmap.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/RespostaDAO.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/DAO/RespostaQuestoesDAO.php" />
+        <option value="$PROJECT_DIR$/VariaveisQuestoes.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_static.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/VariaveisQuestoes.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/index.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Conceitos.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Variaveis.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Operadores.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Controladores.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/view/Funcoes.php" />
+        <option value="$PROJECT_DIR$/CTutoriais/model/Sessao.php" />
+        <option value="$PROJECT_DIR$/../DuoProgramming/Duo Programming/model/Sessao.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/model/Validacoes.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/model/Forum.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/controller/ControllerForum.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/view/Variaveis.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/model/Sessao.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/view/PageView.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/controller/ControllerSessao.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/view/js/script.js" />
+        <option value="$PROJECT_DIR$/Duo Programming/view/index.php" />
+        <option value="$PROJECT_DIR$/Duo Programming/view/indexPrincipal.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duo Programming" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duo Programming" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duo Programming" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duo Programming" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DAO" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Trabalho PW" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Duo Programming" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Professor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Trabalho PW\CTutoriais\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Trabalho PW\Duo Programming" />
+      <recent name="C:\wamp64\www\Trabalho PW\CTutoriais\view\imgs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edd72233-f5d7-44eb-ae39-93cd7f2e014b" name="Default" comment="" />
+      <created>1498593459704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498593459704</updated>
+      <workItem from="1498593461484" duration="827000" />
+      <workItem from="1498603286731" duration="1351000" />
+      <workItem from="1498672834345" duration="2384000" />
+      <workItem from="1498675412258" duration="5582000" />
+      <workItem from="1498755683481" duration="11975000" />
+      <workItem from="1498845704888" duration="11087000" />
+      <workItem from="1498909110667" duration="2589000" />
+      <workItem from="1498937545003" duration="7980000" />
+      <workItem from="1498965363857" duration="674000" />
+      <workItem from="1498970144165" duration="1259000" />
+      <workItem from="1498971438744" duration="368000" />
+      <workItem from="1499016994374" duration="606000" />
+      <workItem from="1499018558121" duration="7801000" />
+      <workItem from="1499037389025" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="55124000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3352855" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/VariaveisQuestoes.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Sobre.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Conceitos.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Variaveis.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Operadores.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Controladores.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/Funcoes.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/DAO/UsuarioVO.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/DAO/UsuarioDAO.php" />
+    <entry file="file://$PROJECT_DIR$/Manual de Instalação/Script Usuario.sql" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/PageView.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/login.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/indexPrincipal.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/autoload.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_classmap.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_static.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_real.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_psr4.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/vendor/composer/autoload_namespaces.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/view/index.php" />
+    <entry file="file://$PROJECT_DIR$/CTutoriais/model/Sessao.php" />
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/QuestoesVO.php" />
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/UsuarioVO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/autoload_classmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/autoload_namespaces.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/autoload_real.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/autoload_static.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5409">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/DAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/discussao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/editarinfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/UsuarioDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="41" lean-forward="false" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <marker date="1480027992000" expanded="true" signature="1391:1525" ph="SELECT userI... usuario" />
+            <marker date="1480027992000" expanded="true" signature="1932:2068" ph="SELECT userI... usuario" />
+            <marker date="1480027992000" expanded="true" signature="2862:3165" ph="INSERT INTO forum.usuario... " />
+            <marker date="1480027992000" expanded="true" signature="3948:4274" ph="UPDATE usuar... " />
+            <marker date="1480027992000" expanded="true" signature="4778:4813" ph="Delete from " />
+            <marker date="1480027992000" expanded="true" signature="4879:4915" ph="Delete from " />
+            <marker date="1480027992000" expanded="true" signature="4982:5017" ph="Delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/QuestaoVO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/Variaveis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="116" column="40" lean-forward="false" selection-start-line="116" selection-start-column="40" selection-end-line="116" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/ModalsView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481225540000" expanded="true" signature="364:1358" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="409:1335" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="500:1309" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="549:745" ph="..." />
+            <marker date="1481225540000" expanded="false" signature="632:639" ph="×" />
+            <marker date="1481225540000" expanded="true" signature="792:1095" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="930:1065" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="1144:1282" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="2830:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="2979:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3035:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3148:3712" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3221:3488" ph="..." />
+            <marker date="1481225540000" expanded="false" signature="3354:3361" ph="×" />
+            <marker date="1481225540000" expanded="true" signature="3567:3673" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3822:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3924:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="3989:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="4194:4310" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="4551:4702" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="4980:5102" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="5517:5799" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="5600:5760" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="6102:8853" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="6238:8826" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="6294:8795" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="6407:6965" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="6480:6747" ph="..." />
+            <marker date="1481225540000" expanded="false" signature="6613:6620" ph="×" />
+            <marker date="1481225540000" expanded="true" signature="6826:6926" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="7075:8364" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="7216:8325" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="7281:8159" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="7546:7672" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="7934:8056" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="8478:8760" ph="..." />
+            <marker date="1481225540000" expanded="true" signature="8561:8721" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/ForumView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481193752000" expanded="true" signature="747:1341" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="890:1034" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="1167:1314" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="1651:2177" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="1743:1845" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="2642:3277" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="2788:2932" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="3066:3250" ph="..." />
+            <marker date="1481193752000" expanded="true" signature="3099:3246" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/model/Validacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2210">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <marker date="1481194050000" expanded="true" signature="497:547" ph="SELECT * FRO... usuario" />
+            <marker date="1481194050000" expanded="true" signature="801:857" ph="SELECT * FRO... usuario" />
+            <marker date="1481194050000" expanded="true" signature="1079:1204" ph="SELECT * FRO... usuario" />
+            <marker date="1481194050000" expanded="true" signature="1230:1352" ph="SELECT * FRO... usuario" />
+            <marker date="1481194050000" expanded="true" signature="2945:2951" ph="!" />
+            <marker date="1481194050000" expanded="true" signature="3083:3089" ph="!" />
+            <marker date="1481194050000" expanded="true" signature="3231:3237" ph="!" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/model/Forum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/forum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/model/Sessao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/PageView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="41" lean-forward="false" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <marker date="1499024281659" expanded="true" signature="347:3616" ph="..." />
+            <marker date="1499024281659" expanded="false" signature="528:535" ph="×" />
+            <marker date="1499024281659" expanded="true" signature="802:1065" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="847:1042" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="1288:1662" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="1333:1639" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="1909:2263" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="1954:2240" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="2500:3016" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="2545:2993" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="3251:3583" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="3296:3560" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="3831:4116" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="3882:4116" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="3904:4116" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="4015:4093" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="4041:4048" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="7107:7221" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="7367:8594" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="7387:8547" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="8324:8527" ph="..." />
+            <marker date="1499024281659" expanded="true" signature="8654:8794" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480106944000" expanded="true" signature="1346:1352" ph="!" />
+            <marker date="1480106944000" expanded="true" signature="1586:1592" ph="!" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/DAO/QuestaoDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481190850000" expanded="true" signature="321:694" ph="INSERT INTO forum.questao... " />
+            <marker date="1481190850000" expanded="true" signature="1333:1630" ph="select quest... questao" />
+            <marker date="1481190850000" expanded="true" signature="3501:3788" ph="UPDATE quest... " />
+            <marker date="1481190850000" expanded="true" signature="4169:4207" ph="DELETE FROM " />
+            <marker date="1481190850000" expanded="true" signature="4276:4314" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/controller/ControllerValidacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/controller/ControllerForum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="176" column="1" lean-forward="false" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+          <folding>
+            <marker date="1481197744000" expanded="true" signature="2575:2761" ph="..." />
+            <marker date="1481197744000" expanded="false" signature="2658:2665" ph="×" />
+            <marker date="1481197744000" expanded="true" signature="3743:3955" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="3907:3955" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="4027:4633" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="4169:4313" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="4445:4592" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="5433:5601" ph="..." />
+            <marker date="1481197744000" expanded="true" signature="5477:5558" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/controller/ControllerSessao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1499026708495" expanded="true" signature="2014:2199" ph="..." />
+            <marker date="1499026708495" expanded="false" signature="2097:2104" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Duo Programming/view/indexPrincipal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="49" column="40" lean-forward="false" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
