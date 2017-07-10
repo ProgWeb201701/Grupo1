@@ -22,7 +22,7 @@ $pagina->showMenuSuperior();
                 <div class="row">
                     <div class="col-md-4">
                         <div class="thumbnail">
-                            <a href="niveisC.php" </a>
+                            <a href="java.php" </a>
                             <img src="imgs/javaIcone.png" alt="Lights" style="width:100%">
                             <div class="caption">
                                 <h1>Java</h1>

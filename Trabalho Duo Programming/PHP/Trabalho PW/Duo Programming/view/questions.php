@@ -53,7 +53,6 @@ int main(){
         <hr>
         <footer>
             <p id = "contato_pe">Contatos</p>
-            <p id = "contato_pe">E-mail: danimarttins@gmail.com</p>
             <p id = "contato_pe">E-mail: naihara2008@hotmail.com</p>
 
 

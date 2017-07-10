@@ -1,6 +1,8 @@
 <?php
 session_start();
 require '/../vendor/autoload.php';
+require '/../controller/config.php';
+
 $sessao = new ControllerSessao();
 $sessao->logOut();
 // Menu Superior e Menu Latera
@@ -8,6 +10,8 @@ $pagina = new PageView();
 $pagina->showHeadHTML();
 $pagina->showMenuSuperior();
 $pagina->showMenuLateral();
+
+error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 ?>
 
         <div id="main" class="texto" > 
@@ -155,142 +159,180 @@ int main(){
                 <div class="panel-heading"><h4>Questões:</h4></div>
                 <div class="panel-body">
                     <table id = "questao">
-                        <tr>
-                            <th id = "enunciado"><h3><p>1 - Oque será mostrado na tela?</p>
-                              
-                                    <pre><code>
-int teste(int numero){
-	
-	if(numero > 4){
-		return 1;
-	}else{
-		return 0;
-	}
-}
-
-int main(){
-
-	int x = 5;
-
-	if(teste(x)){
-		printf("Verdade");
-	}else{
-		printf("Falso")
-	}
-
-}
-
-}</code></pre></h3></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "correta1" onclick="teste_correto(this, 0, 1)">Verdade</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 1)">Falso</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 1)">1</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 1)">Nenhum dos anteriores</button></th>
-                        </tr>
-                    </table>
-                    <hr>
-                    <table id = "questao">
-                        <tr>
-                            <th id = "enunciado"><h3><p>2 - Qual será o valor de 'x'?</p>
-                                    <pre><code>
-int calcula(int numero){
-	
-	if(numero > 10){
-		calcula(numero - 1);
-	}else{
-		return numero;
-	}
-}
-
-int main(){
-
-	int x = 15;
-
-	x = teste(x);
-	printf("%d", x);
-	
-	return 0;
-}</code></pre></h3></th><
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 2)">15</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "correta2" onclick="teste_correto(this, 0, 2)">10</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 2)">0</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 2)">100</button></th>
-                        </tr>
-                    </table>
-                    <hr>
-
-                    <table id = "questao">
-                        <tr>
-                            <th id = "enunciado"><h3><p>3 - Qual será o valor de 'x'?</p>
-                                    <pre><code>
-int valor_y(int numero){
-	
-	return 3
-}
-
-int valor_x(int numero){
-	
-	return 150;
-} 
-
-int main(){
-
-	int x = 10, y = 2;
-
-	x = valor_x(x);
-	y = valor_y(y);
-
-	printf("%d\n", (x/y))
-	
-	return 0;
-}</code></pre></h3></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 0, 3)">50</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "correta3" onclick="teste_correto(this, 1, 3)">150</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 3)">3</button></th>
-                        </tr>
-                        <tr>
-                            <th><button id = "incorreta" onclick="teste_correto(this, 1, 3)">5</button></th>
-                        </tr>
-                    </table>
                 </div>
-            </div>
-            <div>
-                <a href="Controladores.php">
-                    <button type="button" class="btn btn-success" id="botaoPrevious"  ">&#8592;Controladores</button>
-                </a>
+
+                <form class="form-horizontal" role="form" id='login' method="post" action="ResultadoQuestoes.php">
+                    <?php
+                    $res = mysql_query("select * from questoes where id_nivel=5 ORDER BY RAND()") or die(mysql_error());
+                    $rows = mysql_num_rows($res);
+                    $i = 1;
+                    while ($result = mysql_fetch_array($res)) {
+                        ?>
+
+
+                        <?php if ($i == 1) { ?>
+                            <div id='question<?php echo $i; ?>' class='cont'>
+                                <p class='questions' id="qname<?php echo $i; ?>"> <?php echo $i ?>
+                                    .<?php echo $result['questoes']; ?></p>
+                                <input type="radio" value="1" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta1']; ?>
+                                <br/>
+                                <input type="radio" value="2" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta2']; ?>
+                                <br/>
+                                <input type="radio" value="3" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta3']; ?>
+                                <br/>
+                                <input type="radio" value="4" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta4']; ?>
+                                <br/>
+                                <input type="radio" value="5" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta5']; ?>
+                                <br/>
+                                <input type="radio" checked='checked' style='display:none' value="6"
+                                       id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/>
+                                <br/>
+                                <button id='<?php echo $i; ?>' class='next btn btn-success' type='button'>Próximo</button>
+                            </div>
+
+
+
+                        <?php } elseif ($i < 1 || $i < $rows) { ?>
+
+                            <div id='question<?php echo $i; ?>' class='cont'>
+                                <p class='questions' id="qname<?php echo $i; ?>"> <?php echo $i ?>
+                                    .<?php echo $result['questoes']; ?></p>
+                                <input type="radio" value="1" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta1']; ?>
+                                <br/>
+                                <input type="radio" value="2" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta2']; ?>
+                                <br/>
+                                <input type="radio" value="3" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta3']; ?>
+                                <br/>
+                                <input type="radio" value="4" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta4']; ?>
+                                <br/>
+                                <input type="radio" value="5" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta5']; ?>
+                                <br/>
+                                <input type="radio" checked='checked' style='display:none' value="6"
+                                       id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/>
+                                <br/>
+                                <button id='<?php echo $i; ?>' class='previous btn btn-success' type='button'>Anterior</button>
+                                <button id='<?php echo $i; ?>' class='next btn btn-success' type='button'>Próximo</button>
+                            </div>
+
+                        <?php } elseif ($i == $rows) { ?>
+                            <div id='question<?php echo $i; ?>' class='cont'>
+                                <p class='questions' id="qname<?php echo $i; ?>"> <?php echo $i ?>
+                                    .<?php echo $result['questoes']; ?></p>
+                                <input type="radio" value="1" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta1']; ?>
+                                <br/>
+                                <input type="radio" value="2" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta2']; ?>
+                                <br/>
+                                <input type="radio" value="3" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta3']; ?>
+                                <br/>
+                                <input type="radio" value="4" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta4']; ?>
+                                <br/>
+                                <input type="radio" value="5" id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/><?php echo $result['resposta5']; ?>
+                                <br/>
+                                <input type="radio" checked='checked' style='display:none' value="6"
+                                       id='radio1_<?php echo $result['id_questoes']; ?>'
+                                       name='<?php echo $result['id_questoes']; ?>'/>
+                                <br/>
+
+                                <button id='<?php echo $i; ?>' class='previous btn btn-success' type='button'>Anterior</button>
+                                <button id='<?php echo $i; ?>' class='next btn btn-success' type='submit'>Fim</button>
+                            </div>
+                        <?php }
+                        $i++;
+                    } ?>
+
+                </form>
             </div>
         </div>
-        <br>
-        <br>
-        <br>
-        <hr>
-        <footer>
-            <p id = "contato_pe">Contatos</p>
-            <p id = "contato_pe">E-mail: naihara2008@hotmail.com</p>
 
 
-        </footer>
-    </div>
+<?php
+
+if (isset($_POST[1])) {
+    $keys = array_keys($_POST);
+    $order = join(",", $keys);
+
+    $response = mysql_query("select id_questoes,resposta from questoes where id_questoes IN($order) ORDER BY FIELD(id_questoes,$order)") or die(mysql_error());
+    $right_resposta = 0;
+    $wrong_resposta = 0;
+    $unanswered = 0;
+    while ($result = mysql_fetch_array($response)) {
+        if ($result['resposta'] == $_POST[$result['id_questoes']]) {
+            $right_resposta++;
+        } else if ($_POST[$result['id_questoes']] == 5) {
+            $unanswered++;
+        } else {
+            $wrong_resposta++;
+        }
+
+    }
+
+    echo "resposta_correta : " . $right_resposta . "<br>";
+    echo "resposta_errada : " . $wrong_resposta . "<br>";
+    echo "sem_resposta : " . $unanswered . "<br>";
+}
+?>
+
+
+<script>
+    $('.cont').addClass('hide');
+    count = $('.questions').length;
+    $('#question' + 1).removeClass('hide');
+
+    $(document).on('click', '.next', function () {
+        last = parseInt($(this).attr('id'));
+        nex = last + 1;
+        $('#question' + last).addClass('hide');
+
+        $('#question' + nex).removeClass('hide');
+    });
+
+    $(document).on('click', '.previous', function () {
+        last = parseInt($(this).attr('id'));
+        pre = last - 1;
+        $('#question' + last).addClass('hide');
+
+        $('#question' + pre).removeClass('hide');
+    });
+
+    setTimeout(function () {
+        $("form").submit();
+    }, 60000);
+</script>
+<br>
+<br>
+<br>
+<div>
+    <a href="Controladores.php">
+        <button type="button" class="btn btn-success" id="botaoPrevious"  ">&#8592;Controladores</button>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<footer>
+    <p id="contato_pe">Contatos</p>
+    <p id="contato_pe">E-mail: danimarttiins@gmail.com</p>
+    <p id="contato_pe">E-mail: naihara2008@hotmail.com</p>
+
+
+</footer>
 </body>
 </html>

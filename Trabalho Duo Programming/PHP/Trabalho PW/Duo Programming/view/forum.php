@@ -15,7 +15,6 @@ $listaQuestoes = $forum->getQuestoes();
 $pagina = new PageView();
 $pagina->showHeadHTML();
 $pagina->showMenuSuperior();
-$pagina->showMenuLateral();
 ?>
 
     <div id="main" class="texto" > <!-- div main-->

@@ -87,9 +87,15 @@ class PageView {
         }
 
         if ($page == "index.php") {
-            echo '<li><a id="menuativo" href="login.php" onclick="responsiveMenu()" >Questoes</a></li>';
+            echo '<li><a id="menuativo" href="login.php" onclick="responsiveMenu()" >Questões</a></li>';
         } else {
             echo '<li><a  href="index.php" onclick="responsiveMenu()" >Questoes</a></li>';
+        }
+
+        if ($page == "forum.php" || $page == "discussao.php" || $page == "editaQuestao") {
+            echo ' <li><a id="menuativo" href="forum.php" onclick="responsiveMenu()">Fórum</a></li>';
+        } else {
+            echo ' <li><a  href="forum.php" onclick="responsiveMenu()">Forum</a></li>';
         }
         if ($page == "Sobre.php") {
             echo ' <li><a id="menuativo" href="Sobre.php" onclick="responsiveMenu()">Sobre</a></li>';
@@ -101,12 +107,6 @@ class PageView {
             echo '<li><a id="menuativo" href="Contato.php" onclick="responsiveMenu()">Contato</a></li>';
         } else {
             echo '<li><a href="Contato.php" onclick="responsiveMenu()">Contato</a></li>';
-        }
-
-        if ($page == "forum.php" || $page == "discussao.php" || $page == "editaQuestao") {
-            echo ' <li><a id="menuativo" href="forum.php" onclick="responsiveMenu()">Forum</a></li>';
-        } else {
-            echo ' <li><a  href="forum.php" onclick="responsiveMenu()">Forum</a></li>';
         }
         if (empty($_SESSION['nome'])) {
             echo "<ul class='nav navbar-nav navbar-right'>";
@@ -175,6 +175,7 @@ class PageView {
     function showFooter() {
         echo '<footer>
         <p id = "contato_pe">Contatos</p>
+        <p id = "contato_pe">E-mail: danimarttins@gmail.com</p>
         <p id = "contato_pe">E-mail: naihara2008@hotmail.com</p>
      
         

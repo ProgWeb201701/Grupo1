@@ -7,7 +7,7 @@ $sessao->logOut();
 $pagina = new PageView();
 $pagina->showHeadHTML();
 $pagina->showMenuSuperior();
-$pagina->showMenuLateral();
+
 ?>
         
         <div id="main" class="texto" > 
@@ -26,6 +26,7 @@ $pagina->showMenuLateral();
                 <hr>
                 <footer>
                     <p id = "contato_pe">Contatos</p>
+                    <p id = "contato_pe">E-mail: danimarttiins@gmail.com</p>
                     <p id = "contato_pe">E-mail: naihara2008@hotmail.com</p>
 
 
